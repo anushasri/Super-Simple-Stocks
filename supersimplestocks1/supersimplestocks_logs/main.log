@@ -1,0 +1,355 @@
+2016-02-28 04:14:23  INFO c.j.s.t.GlobalBeverageCorporationExchangeTest - Test : Executing stockPricesForTradesBeyond15MinShouldAssertFalse ...
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:09:23.382        TEA   80    SELL  150  
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:06:23.382        GIN   90    BUY   120  
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:02:23.382        POP   100   SELL  130  
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:01:23.382        ALE   110   BUY   140  
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:00:23.382        JOE   120   SELL  110  
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:56:23.382        GIN   100   BUY   130  
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:56:23.382        POP   110   SELL  120  
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:56:23.382        ALE   90    BUY   120  
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:56:23.382        JOE   80    SELL  150  
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:56:23.382        TEA   120   SELL  110  
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Expected test results
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Symbol StockPrice DividendYield PE Ratio
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:14:23  ERROR com.jp.supersimplestocks.tradeandstockexchange.BaseTest - calculatePERatio : Dividend yield  could have been zero for : TEA
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - TEA   126.00   0.00     Na      
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - POP   124.77   0.07     2882.43 
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - ALE   131.00   0.18     727.78  
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - GIN   125.27   0.02     6263.50 
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - JOE   126.00   0.11     1145.46 
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Starting stock thread
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Started stock thread
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopping stockThread ...
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopped stockThread thread
+2016-02-28 04:14:23  INFO c.j.s.t.GlobalBeverageCorporationExchangeTest - Test : Executing runGBCE ...
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.TradeManager - Starting trade thread
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.TradeManager - Started trade thread
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Starting stock thread
+2016-02-28 04:14:23  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Started stock thread
+2016-02-28 04:14:23  INFO c.j.s.tradeandstockexchange.TradeEvictionManager - Starting eviction thread
+2016-02-28 04:14:23  INFO c.j.s.tradeandstockexchange.TradeEvictionManager - Started eviction thread
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopping stockThread ...
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopped stockThread thread
+2016-02-28 04:14:33  INFO c.j.s.tradeandstockexchange.TradeEvictionThread - Stopping evictionThread ...
+2016-02-28 04:14:33  INFO c.j.s.tradeandstockexchange.TradeEvictionThread - Stopped evictionThread thread
+2016-02-28 04:14:33  INFO c.j.s.t.GlobalBeverageCorporationExchangeTest - Test : Executing stockPricesForTradesWithIn15MinShouldAssertTrue ...
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:09:33.42         TEA   80    SELL  150  
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:06:33.42         GIN   90    BUY   120  
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:02:33.42         POP   100   SELL  130  
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:01:33.42         ALE   110   BUY   140  
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:00:33.42         JOE   120   SELL  110  
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:02:33.42         GIN   100   BUY   130  
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:01:33.42         POP   110   SELL  120  
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:06:33.42         ALE   90    BUY   120  
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:09:33.42         JOE   80    SELL  150  
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:00:33.42         TEA   120   SELL  110  
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Expected test results
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Symbol StockPrice DividendYield PE Ratio
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:14:33  ERROR com.jp.supersimplestocks.tradeandstockexchange.BaseTest - calculatePERatio : Dividend yield  could have been zero for : TEA
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - TEA   126.00   0.00     Na      
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - POP   124.77   0.07     2882.43 
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - ALE   131.00   0.18     727.78  
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - GIN   125.27   0.02     6263.50 
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - JOE   126.00   0.11     1145.46 
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Starting stock thread
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Started stock thread
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopping stockThread ...
+2016-02-28 04:14:33  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopped stockThread thread
+2016-02-28 04:14:38  INFO c.j.s.t.GlobalBeverageCorporationExchangeTest - Test : Executing stockPricesForTradesBeyond15MinShouldAssertFalse ...
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:09:38.445        TEA   80    SELL  150  
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:06:38.446        GIN   90    BUY   120  
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:02:38.446        POP   100   SELL  130  
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:01:38.446        ALE   110   BUY   140  
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:00:38.446        JOE   120   SELL  110  
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:56:38.446        GIN   100   BUY   130  
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:56:38.446        POP   110   SELL  120  
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:56:38.446        ALE   90    BUY   120  
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:56:38.446        JOE   80    SELL  150  
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:56:38.446        TEA   120   SELL  110  
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Expected test results
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Symbol StockPrice DividendYield PE Ratio
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:14:38  ERROR com.jp.supersimplestocks.tradeandstockexchange.BaseTest - calculatePERatio : Dividend yield  could have been zero for : TEA
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - TEA   126.00   0.00     Na      
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - POP   124.77   0.07     2882.43 
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - ALE   131.00   0.18     727.78  
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - GIN   125.27   0.02     6263.50 
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - JOE   126.00   0.11     1145.46 
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Starting stock thread
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Started stock thread
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopping stockThread ...
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopped stockThread thread
+2016-02-28 04:14:38  INFO c.j.s.t.GlobalBeverageCorporationExchangeTest - Test : Executing runGBCE ...
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.TradeManager - Starting trade thread
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.TradeManager - Started trade thread
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Starting stock thread
+2016-02-28 04:14:38  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Started stock thread
+2016-02-28 04:14:38  INFO c.j.s.tradeandstockexchange.TradeEvictionManager - Starting eviction thread
+2016-02-28 04:14:38  INFO c.j.s.tradeandstockexchange.TradeEvictionManager - Started eviction thread
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopping stockThread ...
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopped stockThread thread
+2016-02-28 04:14:48  INFO c.j.s.tradeandstockexchange.TradeEvictionThread - Stopping evictionThread ...
+2016-02-28 04:14:48  INFO c.j.s.tradeandstockexchange.TradeEvictionThread - Stopped evictionThread thread
+2016-02-28 04:14:48  INFO c.j.s.t.GlobalBeverageCorporationExchangeTest - Test : Executing stockPricesForTradesWithIn15MinShouldAssertTrue ...
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:09:48.484        TEA   80    SELL  150  
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:06:48.484        GIN   90    BUY   120  
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:02:48.484        POP   100   SELL  130  
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:01:48.484        ALE   110   BUY   140  
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:00:48.484        JOE   120   SELL  110  
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:02:48.484        GIN   100   BUY   130  
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:01:48.484        POP   110   SELL  120  
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:06:48.484        ALE   90    BUY   120  
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:09:48.484        JOE   80    SELL  150  
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:00:48.484        TEA   120   SELL  110  
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Expected test results
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Symbol StockPrice DividendYield PE Ratio
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:14:48  ERROR com.jp.supersimplestocks.tradeandstockexchange.BaseTest - calculatePERatio : Dividend yield  could have been zero for : TEA
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - TEA   126.00   0.00     Na      
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - POP   124.77   0.07     2882.43 
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - ALE   131.00   0.18     727.78  
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - GIN   125.27   0.02     6263.50 
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - JOE   126.00   0.11     1145.46 
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Starting stock thread
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Started stock thread
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopping stockThread ...
+2016-02-28 04:14:48  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopped stockThread thread
+2016-02-28 04:14:53  INFO c.j.s.t.GlobalBeverageCorporationExchangeTest - Test : Executing stockPricesForTradesBeyond15MinShouldAssertFalse ...
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:09:53.399        TEA   80    SELL  150  
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:06:53.4          GIN   90    BUY   120  
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:02:53.4          POP   100   SELL  130  
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:01:53.4          ALE   110   BUY   140  
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:00:53.4          JOE   120   SELL  110  
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:56:53.4          GIN   100   BUY   130  
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:56:53.4          POP   110   SELL  120  
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:56:53.4          ALE   90    BUY   120  
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:56:53.4          JOE   80    SELL  150  
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:56:53.4          TEA   120   SELL  110  
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Expected test results
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Symbol StockPrice DividendYield PE Ratio
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:14:53  ERROR com.jp.supersimplestocks.tradeandstockexchange.BaseTest - calculatePERatio : Dividend yield  could have been zero for : TEA
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - TEA   126.00   0.00     Na      
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - POP   124.77   0.07     2882.43 
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - ALE   131.00   0.18     727.78  
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - GIN   125.27   0.02     6263.50 
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - JOE   126.00   0.11     1145.46 
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Starting stock thread
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Started stock thread
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopping stockThread ...
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopped stockThread thread
+2016-02-28 04:14:53  INFO c.j.s.t.GlobalBeverageCorporationExchangeTest - Test : Executing runGBCE ...
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.TradeManager - Starting trade thread
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.TradeManager - Started trade thread
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Starting stock thread
+2016-02-28 04:14:53  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Started stock thread
+2016-02-28 04:14:53  INFO c.j.s.tradeandstockexchange.TradeEvictionManager - Starting eviction thread
+2016-02-28 04:14:53  INFO c.j.s.tradeandstockexchange.TradeEvictionManager - Started eviction thread
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopping stockThread ...
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopped stockThread thread
+2016-02-28 04:15:03  INFO c.j.s.tradeandstockexchange.TradeEvictionThread - Stopping evictionThread ...
+2016-02-28 04:15:03  INFO c.j.s.tradeandstockexchange.TradeEvictionThread - Stopped evictionThread thread
+2016-02-28 04:15:03  INFO c.j.s.t.GlobalBeverageCorporationExchangeTest - Test : Executing stockPricesForTradesWithIn15MinShouldAssertTrue ...
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:10:03.437        TEA   80    SELL  150  
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:07:03.437        GIN   90    BUY   120  
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:03:03.437        POP   100   SELL  130  
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:02:03.437        ALE   110   BUY   140  
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:01:03.437        JOE   120   SELL  110  
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:03:03.437        GIN   100   BUY   130  
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:02:03.437        POP   110   SELL  120  
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:07:03.437        ALE   90    BUY   120  
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:10:03.437        JOE   80    SELL  150  
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:01:03.437        TEA   120   SELL  110  
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Expected test results
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Symbol StockPrice DividendYield PE Ratio
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:15:03  ERROR com.jp.supersimplestocks.tradeandstockexchange.BaseTest - calculatePERatio : Dividend yield  could have been zero for : TEA
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - TEA   126.00   0.00     Na      
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - POP   124.77   0.07     2882.43 
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - ALE   131.00   0.18     727.78  
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - GIN   125.27   0.02     6263.50 
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - JOE   126.00   0.11     1145.46 
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Starting stock thread
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Started stock thread
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopping stockThread ...
+2016-02-28 04:15:03  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopped stockThread thread
+2016-02-28 04:15:02  INFO c.j.s.t.GlobalBeverageCorporationExchangeTest - Test : Executing stockPricesForTradesBeyond15MinShouldAssertFalse ...
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:10:02.152        TEA   80    SELL  150  
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:07:02.153        GIN   90    BUY   120  
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:03:02.153        POP   100   SELL  130  
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:02:02.153        ALE   110   BUY   140  
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:01:02.153        JOE   120   SELL  110  
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:57:02.153        GIN   100   BUY   130  
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:57:02.153        POP   110   SELL  120  
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:57:02.153        ALE   90    BUY   120  
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:57:02.153        JOE   80    SELL  150  
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:57:02.153        TEA   120   SELL  110  
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Expected test results
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Symbol StockPrice DividendYield PE Ratio
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:15:02  ERROR com.jp.supersimplestocks.tradeandstockexchange.BaseTest - calculatePERatio : Dividend yield  could have been zero for : TEA
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - TEA   126.00   0.00     Na      
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - POP   124.77   0.07     2882.43 
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - ALE   131.00   0.18     727.78  
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - GIN   125.27   0.02     6263.50 
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - JOE   126.00   0.11     1145.46 
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Starting stock thread
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Started stock thread
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopping stockThread ...
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopped stockThread thread
+2016-02-28 04:15:02  INFO c.j.s.t.GlobalBeverageCorporationExchangeTest - Test : Executing runGBCE ...
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.TradeManager - Starting trade thread
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.TradeManager - Started trade thread
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Starting stock thread
+2016-02-28 04:15:02  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Started stock thread
+2016-02-28 04:15:02  INFO c.j.s.tradeandstockexchange.TradeEvictionManager - Starting eviction thread
+2016-02-28 04:15:02  INFO c.j.s.tradeandstockexchange.TradeEvictionManager - Started eviction thread
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopping stockThread ...
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopped stockThread thread
+2016-02-28 04:15:18  INFO c.j.s.tradeandstockexchange.TradeEvictionThread - Stopping evictionThread ...
+2016-02-28 04:15:18  INFO c.j.s.tradeandstockexchange.TradeEvictionThread - Stopped evictionThread thread
+2016-02-28 04:15:18  INFO c.j.s.t.GlobalBeverageCorporationExchangeTest - Test : Executing stockPricesForTradesWithIn15MinShouldAssertTrue ...
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:10:18.187        TEA   80    SELL  150  
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:07:18.187        GIN   90    BUY   120  
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:03:18.187        POP   100   SELL  130  
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:02:18.187        ALE   110   BUY   140  
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:01:18.187        JOE   120   SELL  110  
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:03:18.187        GIN   100   BUY   130  
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:02:18.187        POP   110   SELL  120  
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:07:18.187        ALE   90    BUY   120  
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:10:18.187        JOE   80    SELL  150  
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:01:18.187        TEA   120   SELL  110  
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Expected test results
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Symbol StockPrice DividendYield PE Ratio
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:15:18  ERROR com.jp.supersimplestocks.tradeandstockexchange.BaseTest - calculatePERatio : Dividend yield  could have been zero for : TEA
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - TEA   126.00   0.00     Na      
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - POP   124.77   0.07     2882.43 
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - ALE   131.00   0.18     727.78  
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - GIN   125.27   0.02     6263.50 
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - JOE   126.00   0.11     1145.46 
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Starting stock thread
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Started stock thread
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopping stockThread ...
+2016-02-28 04:15:18  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopped stockThread thread
+2016-02-28 04:15:22  INFO c.j.s.t.GlobalBeverageCorporationExchangeTest - Test : Executing stockPricesForTradesBeyond15MinShouldAssertFalse ...
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:10:22.987        TEA   80    SELL  150  
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:07:22.987        GIN   90    BUY   120  
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:03:22.987        POP   100   SELL  130  
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:02:22.987        ALE   110   BUY   140  
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:01:22.987        JOE   120   SELL  110  
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:57:22.987        GIN   100   BUY   130  
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:57:22.987        POP   110   SELL  120  
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:57:22.987        ALE   90    BUY   120  
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:57:22.987        JOE   80    SELL  150  
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 03:57:22.987        TEA   120   SELL  110  
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Expected test results
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Symbol StockPrice DividendYield PE Ratio
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:15:22  ERROR com.jp.supersimplestocks.tradeandstockexchange.BaseTest - calculatePERatio : Dividend yield  could have been zero for : TEA
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - TEA   126.00   0.00     Na      
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - POP   124.77   0.07     2882.43 
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - ALE   131.00   0.18     727.78  
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - GIN   125.27   0.02     6263.50 
+2016-02-28 04:15:22  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - JOE   126.00   0.11     1145.46 
+2016-02-28 04:15:23  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Starting stock thread
+2016-02-28 04:15:23  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Started stock thread
+2016-02-28 04:15:23  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopping stockThread ...
+2016-02-28 04:15:23  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopped stockThread thread
+2016-02-28 04:15:23  INFO c.j.s.t.GlobalBeverageCorporationExchangeTest - Test : Executing runGBCE ...
+2016-02-28 04:15:23  INFO com.jp.supersimplestocks.tradeandstockexchange.TradeManager - Starting trade thread
+2016-02-28 04:15:23  INFO com.jp.supersimplestocks.tradeandstockexchange.TradeManager - Started trade thread
+2016-02-28 04:15:23  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Starting stock thread
+2016-02-28 04:15:23  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Started stock thread
+2016-02-28 04:15:23  INFO c.j.s.tradeandstockexchange.TradeEvictionManager - Starting eviction thread
+2016-02-28 04:15:23  INFO c.j.s.tradeandstockexchange.TradeEvictionManager - Started eviction thread
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopping trader thread...
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.Trader - Stopped trader thread
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopping stockThread ...
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopped stockThread thread
+2016-02-28 04:15:33  INFO c.j.s.tradeandstockexchange.TradeEvictionThread - Stopping evictionThread ...
+2016-02-28 04:15:33  INFO c.j.s.tradeandstockexchange.TradeEvictionThread - Stopped evictionThread thread
+2016-02-28 04:15:33  INFO c.j.s.t.GlobalBeverageCorporationExchangeTest - Test : Executing stockPricesForTradesWithIn15MinShouldAssertTrue ...
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:10:33.032        TEA   80    SELL  150  
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:07:33.032        GIN   90    BUY   120  
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:03:33.032        POP   100   SELL  130  
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:02:33.032        ALE   110   BUY   140  
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:01:33.032        JOE   120   SELL  110  
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:03:33.032        GIN   100   BUY   130  
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:02:33.032        POP   110   SELL  120  
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:07:33.032        ALE   90    BUY   120  
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:10:33.032        JOE   80    SELL  150  
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.TradesQueue - 2016-02-28 04:01:33.032        TEA   120   SELL  110  
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Expected test results
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - Symbol StockPrice DividendYield PE Ratio
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - -------------------------------------------------
+2016-02-28 04:15:33  ERROR com.jp.supersimplestocks.tradeandstockexchange.BaseTest - calculatePERatio : Dividend yield  could have been zero for : TEA
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - TEA   126.00   0.00     Na      
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - POP   124.77   0.07     2882.43 
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - ALE   131.00   0.18     727.78  
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - GIN   125.27   0.02     6263.50 
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.BaseTest - JOE   126.00   0.11     1145.46 
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Starting stock thread
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.StockManager - Started stock thread
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopping stockThread ...
+2016-02-28 04:15:33  INFO com.jp.supersimplestocks.tradeandstockexchange.StockThread - Stopped stockThread thread

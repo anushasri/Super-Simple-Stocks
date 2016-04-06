@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <property name="USER_HOME" value="supersimplestocks_logs" />
+
+    <appender name="FILE-THREAD" class="ch.qos.logback.classic.sift.SiftingAppender">
+
+        <!-- This is MDC value -->
+        <!-- We will assign a value to 'workername' via Java code -->
+        <discriminator>
+            <key>workername</key>
+            <defaultValue>main</defaultValue>
+        </discriminator>
+
+        <sift>
+
+            <!-- A standard RollingFileAppender, the log file is based on 'workername' at runtime  -->
+            <appender name="FILE-${workername}"
+                      class="ch.qos.logback.core.rolling.RollingFileAppender">
+                <file>${USER_HOME}/${workername}.log</file>
+
+                <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+                    <Pattern>
+                        %d{yyyy-MM-dd HH:mm:ss}  %level %logger{60} - %msg%n
+                    </Pattern>
+                </encoder>
+
+                <rollingPolicy
+                        class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+                    <FileNamePattern>${USER_HOME}/${workername}.%i.log.zip
+                    </FileNamePattern>
+                    <MinIndex>1</MinIndex>
+                    <MaxIndex>10</MaxIndex>
+                </rollingPolicy>
+
+                <triggeringPolicy
+                        class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+                    <MaxFileSize>10MB</MaxFileSize>
+                </triggeringPolicy>
+
+            </appender>
+
+        </sift>
+    </appender>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %-5level %logger{60} - %msg%n
+            </Pattern>
+        </layout>
+    </appender>
+
+    <logger name="com.jp.supersimplestocks.tradeandstockexchange" level="debug"
+            additivity="false">
+        <appender-ref ref="FILE-THREAD" />
+        <!--<appender-ref ref="STDOUT" />-->
+    </logger>
+
+    <root level="error">
+        <appender-ref ref="STDERR" />
+    </root>
+
+</configuration>
